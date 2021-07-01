@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+    
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Registration Form</h2>
+        </div>
+        <form class="form" id="form">
+            <!-- Username -->
+            <div class="form-control">
+                <label>Username</label>
+                <input type="text" name="" id="username" placeholder="Enter your username">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Msg</small>
+            </div>
+
+            <!-- email -->
+            <div class="form-control">
+                <label>Email</label>
+                <input type="email" name="" id="email" placeholder="Enter your email">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Msg</small>
+            </div>
+
+            <!-- mobile number -->
+            <div class="form-control">
+                <label>Mobile Number</label>
+                <input type="number" name="" id="phone" placeholder="Enter your Mobile Number">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Msg</small>
+            </div>
+
+            <!-- password -->
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" name="" id="password" placeholder="Enter your Password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Msg</small>
+            </div>
+
+            <!-- confirm password -->
+            <div class="form-control">
+                <label>Confirm Password</label>
+                <input type="password" name="" id="cPassword" placeholder="Enter your password again">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Msg</small>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html> 
